@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ICA Inventory Management</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.3/taffy.js"></script>
+
+  <style>
+    table,
+    th,
+    td {
+      margin: 10px 0;
+      border: solid 1px #333;
+      padding: 2px 4px;
+      font: 15px Tahoma;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="green darken-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Island Clean Air</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+        <li>
+          <a href="print.html"> Make List </a>
+        </li>
+        <li class="active">
+          <a href="addpart.html">Add Part</a>
+        </li>
+        <li>
+            <a href="rempart.html">Remove Part</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div style="padding-left: 1em;">
+    <div class="row">
+      <h5> Add Part</h5>
+      <br>
+      <form class="col s6 m6 l6" action="#">
+
+        <div class="row">
+          <div class="active col s6 m6 l6">
+              <label for="machlist" class="active">Add Part to Machine</label>
+            <select name="machlist" id="machlist">
+              <option value="0001">Duster 3000</option>
+              <option value="0002">Duster Example</option>
+            </select>
+          </div>
+
+
+          <div class="active col s4">
+            <label for="num_per_machine" class="active">Number Per Machine</label>
+            <input placeholder="Number to create" id="num_per_machine" type="number" max=5 0 value=1 class="validate">
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <label for="part_name" class="active">Part Name</label>
+                <input id="part_name" type="text" class="validate">
+              </div>
+
+
+          <div class="active col s4">
+            <label for="machineID" class="active">MachineID/USP</label>
+            <input placeholder="00000" id="machineID" type="number" max=5 0 value=00000 class="validate">
+          </div>
+        </div>
+
+
+      </form>
+
+    </div>
+    <div class="row">
+      <div class="col s12 ">
+        <button id="course_sub_button" type="submit" class="btn-large left  waves-effect waves-light  white-text black">Submit </button>
+      </div>
+    </div>
+
+    <div class="col s6">
+      <div id="showData"></div>
+    </div>
+</body>
+
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/addPart.js"></script>
+
+</html>

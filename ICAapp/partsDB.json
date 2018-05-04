@@ -1,0 +1,128 @@
+{
+    "Machines": [
+        {
+            "Machine": "1",
+            "Name": "Duster 3000",
+            "MachineNo": "0001",
+            "Parts": [
+                {
+                    "Name": "Housing",
+                    "Number_Per": "1",
+                    "Part_ID": "22103"
+                },
+                {
+                    "Name": "Blower",
+                    "Number_Per": "1",
+                    "Part_ID": "33201"
+                },
+                {
+                    "Name": "Motor",
+                    "Number_Per": "1",
+                    "Part_ID": "33112"
+                },
+                {
+                    "Name": "Wheels",
+                    "Number_Per": "4",
+                    "Part_ID": "88107"
+                },
+                {
+                    "Name": "Gauge",
+                    "Number_Per": "1",
+                    "Part_ID": "44722"
+                },
+                {
+                    "Name": "IF 4 - Pads",
+                    "Number_Per": "3",
+                    "Part_ID": "11205"
+                },
+                {
+                    "Name": "CF2",
+                    "Number_Per": "3",
+                    "Part_ID": "11209"
+                },
+                {
+                    "Name": "Viledon",
+                    "Number_Per": "1",
+                    "Part_ID": "11207"
+                },
+                {
+                    "Name": "Plenum",
+                    "Number_Per": "1",
+                    "Part_ID": "00312"
+                },
+                {
+                    "Name": "LexanShroud",
+                    "Number_Per": "1",
+                    "Part_ID": "22402"
+                },
+                {
+                    "Name": "Packaging",
+                    "Number_Per": "1",
+                    "Part_ID": "000"
+                }
+            ]
+        },
+        {
+            "Machine": "2",
+            "Name": "Duster 6000",
+            "MachineNo": "0002",
+            "Parts": [
+                {
+                    "Name": "Housing",
+                    "Number_Per": "1",
+                    "Part_ID": "22103"
+                },
+                {
+                    "Name": "Blower",
+                    "Number_Per": "1",
+                    "Part_ID": "33201"
+                },
+                {
+                    "Name": "Motor",
+                    "Number_Per": "1",
+                    "Part_ID": "33112"
+                },
+                {
+                    "Name": "Wheels",
+                    "Number_Per": "4",
+                    "Part_ID": "88107"
+                },
+                {
+                    "Name": "Gauge",
+                    "Number_Per": "1",
+                    "Part_ID": "44722"
+                },
+                {
+                    "Name": "IF 4 - Pads",
+                    "Number_Per": "3",
+                    "Part_ID": "11205"
+                },
+                {
+                    "Name": "CF2",
+                    "Number_Per": "3",
+                    "Part_ID": "11209"
+                },
+                {
+                    "Name": "Viledon",
+                    "Number_Per": "1",
+                    "Part_ID": "11207"
+                },
+                {
+                    "Name": "Plenum",
+                    "Number_Per": "1",
+                    "Part_ID": "00312"
+                },
+                {
+                    "Name": "LexanShroud",
+                    "Number_Per": "1",
+                    "Part_ID": "22402"
+                },
+                {
+                    "Name": "Packaging",
+                    "Number_Per": "1",
+                    "Part_ID": "-"
+                }
+            ]
+        }
+    ]
+}

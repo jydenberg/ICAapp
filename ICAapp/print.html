@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ICA Inventory Management</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.3/taffy.js"></script>
+
+  <style>
+    table,
+    th,
+    td {
+      margin: 10px 0;
+      border: solid 1px #333;
+      padding: 2px 4px;
+      font: 15px Tahoma;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  </style>
+
+  <style type="text/css">
+    p {
+      font-size: 90%;
+    }
+
+    .small {
+      font-size: 70%;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .notice {
+      color: red;
+      background-color: yellow;
+    }
+
+    @media print {
+      .noprint {
+        display: none;
+      }
+    }
+
+    @media screen {
+      .noscreen {
+        display: none;
+      }
+    }
+  </style>
+
+
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="noprint green darken-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Island Clean Air</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+        <li class="active">
+          <a href="print.html"> Make List </a>
+        </li>
+        <li>
+          <a href="addpart.html">Add Part</a>
+        </li>
+        <li>
+          <a href="rempart.html">Remove Part</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <div style="padding-left: 1em;">
+    <div class="noprint row">
+      <h5> ICA Machine Part List</h5>
+      <form class="col s6 m6 l6" action="#">
+
+        <div class="row">
+          <div class="noprint col s6 m6 l6">
+            <label for=machlist class="noprint">Machine Type</label>
+            <select name="Machine_List" id="machlist">
+              <option value="0001">Duster 3000</option>
+              <option value="0002">Duster Example</option>
+            </select>
+          </div>
+
+
+          <div class="noprint active col s4">
+            <label for="num_machines" class="active">Number of Machines</label>
+            <input placeholder="Number to create" id="num_machines" type="number" max=5 0 value=1 class="validate">
+          </div>
+
+
+        </div>
+      </form>
+
+    </div>
+    <div class="row">
+      <div class="noprint col s12 ">
+        <button id="course_sub_button" type="submit" class="btn-large left  waves-effect waves-light  white-text black">Submit </button>
+      </div>
+    </div>
+    <div class="col s6">
+      <div id="dataHeader"></div>
+    </div>
+
+    <div class="col s6">
+      <div id="showData"></div>
+    </div>
+</body>
+
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/printpg.js"></script>
+
+</html>
